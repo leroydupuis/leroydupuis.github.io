@@ -1,2 +1,24 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+html {
+    background-image: url("/images/landscape-2494656_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body>header {
+    background-image: url("/images/bay-3648442_960_720.jpg");
+}
+
+body>header h1 a, body>header h1 {
+    color: #1b1c1f !important;
+}
+
+body>header h2 {
+    color: #040404;
+}
+
+#content .blog-index article h1 a{
+    text-decoration: none;
+}
